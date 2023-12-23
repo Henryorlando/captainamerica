@@ -1,0 +1,4 @@
+Index.php is also named as server.php in laravel only which is in root folder 
+.htaccess not a file in root in laravel 
+config/app.php       'asset_url' => env('ASSET_URL', 'http://localhost/adminuser/public'),
+should be     'asset_url' => env('ASSET_URL', null),  in laravel
